@@ -1,0 +1,15 @@
+name: template
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - numpy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda
+  - matplotlib
+  - ipykernel
+  - pip:
+    - torchinfo
