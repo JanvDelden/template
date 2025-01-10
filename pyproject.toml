@@ -13,5 +13,7 @@ dependencies = [
 where = ["."]
 include = ["codeutils"]
 
-[tool.black]
-line-length = 144
+[tool.yapf]
+based_on_style = "pep8"
+column_limit = 144  
+split_arguments_when_comma_terminated = false
