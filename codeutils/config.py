@@ -25,12 +25,3 @@ def get_config(config_path):
 
             main_cfg.update(default_config)
     return munch.Munch.fromDict(main_cfg)
-
-
-def code_formatter_test_fn(
-    first_variable, second_variable, third_variable, fourth_variable, fifth_variable, sixth_variable, seventh_variable=None
-):
-    """
-    Test docstring
-    """
-    pass
